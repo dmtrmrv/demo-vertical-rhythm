@@ -10,3 +10,11 @@
 .content-flow > * + :is(h2) {
   margin-block-start: var(--step-6);
 }
+
+.content-flow > * + :is(.featured-image) {
+  margin-block-start: var(--step-5);
+}
+
+.content-flow > :is(.featured-image) + * {
+  margin-block-start: var(--step-5);
+}

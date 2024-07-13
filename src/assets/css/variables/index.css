@@ -1,5 +1,5 @@
 :root {
-  /* Space */
+  /* Space Tokens */
   --step--5: clamp(0.3686rem, 0.6197rem + -0.324vi, 0.5549rem);
   --step--4: clamp(0.4608rem, 0.6812rem + -0.2843vi, 0.6243rem);
   --step--3: clamp(0.576rem, 0.7463rem + -0.2197vi, 0.7023rem);
@@ -15,11 +15,16 @@
   --step-7: clamp(2.2807rem, 1.2081rem + 5.363vi, 5.3644rem);
   --step-8: clamp(2.5658rem, 1.1259rem + 7.1995vi, 6.7055rem);
 
-  /* Colors */
+  /* Color Tokens */
   --color--white: #ffffff;
   --color--light-gray: #f0f0f0;
   --color--dark-gray: #434343;
   --color--black: #000000;
+  --color--red: #e7131a;
+
+  /* Color variables */
+  --color--text: var(--color--black);
+  --color--link: var(--color--red);
 
   /* Shadows */
   --shadow-color: 0deg 0% 72%;
@@ -29,6 +34,6 @@
 
   /* Layout */
   --height--header: 7rem;
-  --width--content: 52.5rem;
+  --width--content: 40rem;
   --width--site-gutter: var(--step-3);
 }

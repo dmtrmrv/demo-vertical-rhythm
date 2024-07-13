@@ -4,6 +4,8 @@
   flex-wrap: wrap;
   justify-content: flex-end;
   list-style-type: "";
+  font-family: "Montserrat", sans-serif;
+  font-size: var(--step--1);
   gap: var(--step--3);
 }
 
