@@ -1,0 +1,33 @@
+.site-nav__list {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  list-style-type: "";
+  gap: var(--step--3);
+}
+
+.site-nav__item {
+  min-width: 0;
+  text-align: right;
+}
+
+.site-nav__link {
+  color: var(--color--black);
+  display: block;
+  padding: var(--step--5);
+}
+
+.site-nav__item--logo {
+  margin-inline-end: auto;
+}
+
+.site-nav__link--logo {
+  padding: 0;
+}
+
+.site-nav__logo-img {
+  display: block;
+  height: clamp(2rem, 1.8261rem + 0.8696vi, 2.5rem);
+  width: clamp(2rem, 1.8261rem + 0.8696vi, 2.5rem);
+}

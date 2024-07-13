@@ -1,0 +1,6 @@
+.site-header {
+  background-color: var(--color--white);
+  box-shadow: var(--shadow-elevation-low);
+  padding-block: var(--step-4);
+  padding-inline: var(--width--site-gutter);
+}

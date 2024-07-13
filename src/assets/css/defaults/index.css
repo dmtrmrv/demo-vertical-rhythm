@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:target {
+  scroll-margin-top: calc(var(--height--header) + var(--step-0));
+}
+
+:where(html) {
+  scroll-behavior: smooth;
+}
+
+:where(body) {
+  background-color: var(--color--light-gray);
+  color: var(--color--black);
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-size: var(--step-0);
+  font-weight: normal;
+  hyphens: auto;
+  line-height: 1.625;
+  margin: 0;
+  overflow-wrap: break-word;
+  text-wrap: pretty;
+}
+
+:where(h1, h2, h3) {
+  color: var(--color--black);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  text-wrap: pretty;
+}
+
+:where(h1) {
+  font-size: var(--step-4);
+  line-height: 1.125;
+  font-weight: 800;
+}
+
+:where(h2) {
+  font-size: var(--step-2);
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+:where(h3) {
+  font-size: var(--step-3);
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+:where(p) {
+  font-size: var(--step-0);
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+:where(ul) {
+  font-size: var(--step-0);
+  padding: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+:where(figure) {
+  margin: 0;
+}
+
+:where(img) {
+  max-width: 100%;
+  display: block;
+}
+
+:where(a) {
+  color: var(--color--black);
+  text-decoration: underline;
+
+  &:hover,
+  &:focus-visible {
+    text-decoration: none;
+  }
+}

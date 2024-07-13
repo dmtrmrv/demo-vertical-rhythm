@@ -1,0 +1,10 @@
+.site-footer {
+  align-items: center;
+  background-color: var(--color--black);
+  border-top: 1px solid var(--color--black);
+  color: var(--color--white);
+  display: flex;
+  justify-content: center;
+  padding-block: var(--step-4);
+  padding-inline: var(--width--site-gutter);
+}
