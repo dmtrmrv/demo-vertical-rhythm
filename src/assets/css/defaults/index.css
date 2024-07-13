@@ -13,7 +13,7 @@
 }
 
 :where(body) {
-  background-color: var(--color--light-gray);
+  background-color: transparent;
   color: var(--color--black);
   font-family: "Lora", serif;
   font-optical-sizing: auto;
