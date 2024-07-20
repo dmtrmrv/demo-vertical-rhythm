@@ -4,17 +4,19 @@
 }
 
 .content-flow > * + * {
-  margin-block-start: var(--step-1);
+  margin-block-start: var(--flow-space);
 }
 
-.content-flow > * + :is(h2) {
-  margin-block-start: var(--step-6);
+.content-flow > * + :is(h1, h2, h3) {
+  margin-block-start: var(--flow-space--large);
 }
 
-.content-flow > * + :is(.featured-image) {
-  margin-block-start: var(--step-5);
+.content-flow > * + .has-medium-flow-space,
+.content-flow > .has-medium-flow-space + * {
+  --flow-space: var(--flow-space--medium);
 }
 
-.content-flow > :is(.featured-image) + * {
-  margin-block-start: var(--step-5);
+.content-flow > * + .has-large-flow-space,
+.content-flow > .has-large-flow-space + * {
+  --flow-space: var(--flow-space--large);
 }

@@ -1,6 +1,6 @@
 .card-grid {
   display: grid;
-  gap: var(--step-1);
+  gap: var(--space-s);
   grid-template-columns: repeat(auto-fit, minmax(144px, 1fr));
   list-style-type: "";
 }

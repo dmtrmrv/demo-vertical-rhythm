@@ -2,14 +2,16 @@
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
-  list-style-type: "";
   font-family: "Montserrat", sans-serif;
   font-size: var(--step--1);
-  gap: var(--step--3);
+  gap: var(--space-xs);
+  justify-content: flex-end;
+  list-style-type: "";
+  padding: 0;
 }
 
 .site-nav__item {
+  margin-block-start: 0;
   min-width: 0;
   text-align: right;
 }
@@ -17,7 +19,7 @@
 .site-nav__link {
   color: var(--color--black);
   display: block;
-  padding: var(--step--5);
+  padding: var(--space-3xs);
 }
 
 .site-nav__item--logo {
