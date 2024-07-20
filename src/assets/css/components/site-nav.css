@@ -2,7 +2,7 @@
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-family--sans-serif);
   font-size: var(--step--1);
   gap: var(--space-xs);
   justify-content: flex-end;

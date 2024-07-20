@@ -15,7 +15,7 @@
 :where(body) {
   background-color: transparent;
   color: var(--color--text);
-  font-family: "Lora", serif;
+  font-family: var(--font-family--serif);
   font-optical-sizing: auto;
   font-size: var(--step-0);
   font-weight: normal;
@@ -28,7 +28,7 @@
 
 :where(h1, h2, h3) {
   color: var(--color--text);
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-family--sans-serif);
   font-optical-sizing: auto;
   font-style: normal;
   margin-block: 0;
