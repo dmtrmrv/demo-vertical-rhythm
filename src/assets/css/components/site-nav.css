@@ -12,7 +12,7 @@
 
 .site-nav__item {
   margin-block-start: 0;
-  min-width: 0;
+  min-inline-size: 0;
   text-align: right;
 }
 
@@ -32,6 +32,6 @@
 
 .site-nav__logo-img {
   display: block;
-  height: clamp(2rem, 1.8261rem + 0.8696vi, 2.5rem);
-  width: clamp(2rem, 1.8261rem + 0.8696vi, 2.5rem);
+  block-size: clamp(2rem, 1.8261rem + 0.8696vi, 2.5rem);
+  inline-size: clamp(2rem, 1.8261rem + 0.8696vi, 2.5rem);
 }

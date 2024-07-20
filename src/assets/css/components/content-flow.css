@@ -1,8 +1,3 @@
-.content-flow > * {
-  margin-inline: auto;
-  max-width: var(--width--content);
-}
-
 .content-flow > * + * {
   margin-block-start: var(--flow-space);
 }
