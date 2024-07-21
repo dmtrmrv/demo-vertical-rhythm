@@ -48,6 +48,7 @@
   --width--content--max: 90rem;
   --width--site-gutter: var(--space-m);
 
+  /* Flow Spacing */
   --flow-space: var(--space-s);
   --flow-space--medium: var(--space-xl);
   --flow-space--large: var(--space-2xl);
