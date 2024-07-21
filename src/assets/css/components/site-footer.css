@@ -4,3 +4,7 @@
   padding-inline: var(--width--site-gutter);
   text-align: center;
 }
+
+.site-footer p {
+  font-size: var(--step--1);
+}
