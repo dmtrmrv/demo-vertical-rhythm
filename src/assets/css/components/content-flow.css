@@ -8,10 +8,10 @@
 
 .content-flow > * + .has-medium-flow-space,
 .content-flow > .has-medium-flow-space + * {
-  --flow-space: var(--flow-space--medium);
+  margin-block-start: var(--flow-space--medium);
 }
 
 .content-flow > * + .has-large-flow-space,
 .content-flow > .has-large-flow-space + * {
-  --flow-space: var(--flow-space--large);
+  margin-block-start: var(--flow-space--large);
 }
