@@ -1,5 +1,5 @@
 .site-footer {
-  border-top: 1px solid var(--color--light-gray);
+  border-block-start: 1px solid var(--color--light-gray);
   padding-block: var(--space-m);
   padding-inline: var(--width--site-gutter);
   text-align: center;

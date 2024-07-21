@@ -5,7 +5,7 @@
 }
 
 :target {
-  scroll-margin-top: calc(var(--height--header) + var(--step-0));
+  scroll-margin-block-start: calc(var(--height--header) + var(--step-0));
 }
 
 :where(html) {

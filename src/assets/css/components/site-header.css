@@ -1,6 +1,6 @@
 .site-header {
   background-color: var(--color--white);
-  border-bottom: 1px solid var(--color--light-gray);
+  border-block-end: 1px solid var(--color--light-gray);
   padding-block: var(--space-s);
   padding-inline: var(--width--site-gutter);
 }

@@ -10,13 +10,13 @@
 }
 
 .visually-hidden {
+  block-size: 1px;
   border-width: 0;
   clip: rect(0, 0, 0, 0);
-  block-size: 1px;
+  inline-size: 1px;
   margin: -1px;
   overflow: hidden;
   padding: 0;
   position: absolute;
   white-space: nowrap;
-  width: 1px;
 }
