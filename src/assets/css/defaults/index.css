@@ -73,8 +73,9 @@
 }
 
 :where(img) {
-  max-inline-size: 100%;
+  block-size: auto;
   display: block;
+  max-inline-size: 100%;
 }
 
 :where(a) {
