@@ -3,7 +3,7 @@
 - Live demo: <a href="https://demo-vertical-rhythm.netlify.app/" target="_blank">https://demo-vertical-rhythm.netlify.app/</a>
 
 <p>
-	<a href="https://www.youtube.com/watch?v=JZJQUP3CHgc" target="_blank" style="display:block;">
+	<a href="https://www.youtube.com/watch?v=JZJQUP3CHgc" target="_blank">
 		<img
 			src="https://img.youtube.com/vi/JZJQUP3CHgc/maxresdefault.jpg"
 			alt="Thumbnail for a YouTube video titled 'Easy Vertical Spacing in CSS,' featuring a smiling man with glasses and a short beard, wearing a blue hoodie. The title is in bold black text on a light background with a light blue highlight behind the words 'Vertical Spacing'."
