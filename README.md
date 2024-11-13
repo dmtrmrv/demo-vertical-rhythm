@@ -1,6 +1,10 @@
 # CSS Vertical Spacing: Margins vs. Gaps Explained
-- Video: [https://www.youtube.com/watch?v=JZJQUP3CHgc](https://www.youtube.com/watch?v=JZJQUP3CHgc)
-- Live demo: [https://demo-vertical-rhythm.netlify.app/](https://demo-vertical-rhythm.netlify.app/)
+- Video: <a href="https://www.youtube.com/watch?v=JZJQUP3CHgc" target="_blank">https://www.youtube.com/watch?v=JZJQUP3CHgc</a>
+- Live demo: <a href="https://demo-vertical-rhythm.netlify.app/" target="_blank">https://demo-vertical-rhythm.netlify.app/</a>
+
+<div>
+    <img src="https://img.youtube.com/vi/JZJQUP3CHgc/maxresdefault.jpg" alt="CSS Vertical Spacing: Margins vs. Gaps Explained" style="max-width:100%;">
+</div>
 
 Demo for my YouTube video where I walk you through the basics of handling vertical spacing in CSS. We’ll start with why it’s a good idea to build components without default margins and how to strip those out. I’ll also cover why the gap property might not be the best fit for controlling spacing between elements.
 
